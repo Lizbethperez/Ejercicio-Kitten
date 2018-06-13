@@ -1,0 +1,58 @@
+.format-container-img{
+    height: 100vh;
+    padding: 22em 0;
+   }
+@media screen and (max-width:450px){
+    .container{
+        background-image: url("../assets/draw.png");
+        background-position: center;
+        background-size: cover;
+       }
+     img{
+        width: 100%;
+       } 
+       .hide-on-mobile { 
+        display: none; 
+    } 
+    [class *='col-'] {
+        width: 100%;
+        
+     }        
+}
+
+@media screen and (min-width:451px ) and (max-width:950px){
+    .container{
+        background-image: url("../assets/copia-night.jpg");
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+       }
+       img{
+           width: 100%;
+           height: auto;
+       } 
+       .hide-on-ipad { 
+        display: none; 
+    }   
+          
+}
+
+
+@media screen and (min-width:956px){
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+        background-image: url("../assets/sunny-day.jpg");
+        background-position: center;
+        background-size: cover;
+       }
+       img{
+          max-width: 100%;
+          height: auto;
+       } 
+
+       .hide-on-desktop { 
+        display: none; 
+    }       
+}
+
